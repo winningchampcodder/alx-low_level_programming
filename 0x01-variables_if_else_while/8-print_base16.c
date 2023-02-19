@@ -1,21 +1,26 @@
 #include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
+#include <stlib.h>
 /**
- * main - main blolck
- * Description: Hexadecimal
+ * main - main block
+ * Description: prints all single digit number of base 10
  * Return: 0
  */
 int main(void)
 {
-	char c = 'z';
+	char ch;
 
-	while (c >= 'a')
+	for (ch = '0'; ch <= '9'; ch++;)
 	{
-		putchar(c);
-		c--;
+		putchar(ch);
 	}
-
+	for (ch = 'a'; ch <= 'f'; ch++;)
+	{
+		putchar(ch);
+	}
 	putchar('\n');
 	return (0);
-}
+	}
+
+
+
+
