@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include < stdlib.h>
+#include <stdlib.h>
 /**
  * main - main block
- * Description: Write a program that prints all possible two different digits
+ * Description: Write a program that prints two different digits
  * Return: 0
  */
 int main(void)
@@ -19,7 +19,7 @@ int main(void)
 			{
 				putchar('0' + d);
 				putchar('0' + c);
-
+				
 				if (c + d != 17)
 				{
 					putchar(',');
@@ -34,4 +34,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}
+}}
