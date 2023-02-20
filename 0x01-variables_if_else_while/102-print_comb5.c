@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description: Write a program that prints all possible different combinations of two digits
+ * Description: write a program that prints all possible different combinations of two digits
  * Return: 0
  */
 int main(void)
@@ -24,7 +24,7 @@ int main(void)
 		{
 			f_d2 = (c2 / 10 + '0');
 			l_d2 = (c2 % 10 + '0');
-			
+
 			if (c < c2)
 			{
 				putchar(f_d);
@@ -35,14 +35,15 @@ int main(void)
 
 				if (c != 98)
 				{
-					putchar('.');
+					putchar(',');
 					putchar(' ');
 				}
 			}
-			c++;
+			c2++;
 		}
 		c++;
 	}
 	putchar('\n');
 	return (0);
 }
+
