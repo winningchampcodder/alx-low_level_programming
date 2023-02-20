@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description: prints all single digit number of base 10
+ * Description: Print all single digit number of base 10
  * Return: 0
  */
 int main(void)
@@ -13,14 +13,10 @@ int main(void)
 	{
 		putchar(ch);
 	}
-	for (ch = 'a'; ch <= 'f'; ch++;)
+	for (ch = 'a'; ch <= 'f'; ch++)
 	{
 		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
-	}
-
-
-
-
+}
