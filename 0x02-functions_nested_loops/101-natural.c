@@ -3,6 +3,7 @@
  * Auth: sally
  */
 #include "main.h"
+#include <stdio.h>
 
 /**
  *  main - Lists all the natural numbers below 1024 (excluded)
@@ -22,6 +23,7 @@ int main(void)
 	}
 
 	printf("%d\n", sum);
+
 	return (0);
 }
 
