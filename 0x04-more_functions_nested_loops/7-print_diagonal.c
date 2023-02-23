@@ -4,7 +4,7 @@
  * print_digonal - draws a diagonal line on the terminal
  * @n: number of times the character \ should be printed
  */
-void print_digonal(int n)
+void print_diagonal(int n)
 {
 	if (n <= 0)
 	{
